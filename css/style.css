@@ -535,3 +535,21 @@ a:hover, a:active, a:focus {
 #services .item-block p {
   color: #7f7f7f;
 }
+.premotavanje{
+  text-align: left;
+  margin: 5px 140px 10px;
+  }
+li{
+  margin: 10px 0;
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  color: #7f7f7f;
+  font-size: 15px
+}
+.servis{
+   text-align: left;
+   margin: 5px 100px 10px;
+}
+.slike{
+  display: inline-block;
+  margin: 30px 100px;
+}
