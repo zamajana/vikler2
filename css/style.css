@@ -535,3 +535,32 @@ a:hover, a:active, a:focus {
 #services .item-block p {
   color: #7f7f7f;
 }
+.rewind{
+  text-align: left;
+  margin: 20px 0px 35px 40px;
+  font-family: "Trebuchet MS", Trebuchet, sans-serif;
+  color: #7f7f7f;
+}
+.rewind li{
+    margin: 10px 0;
+}
+.service{
+   text-align: left;
+   font-family: "Trebuchet MS", Trebuchet, sans-serif;
+   color: #7f7f7f;
+   margin: 20px 0px 35px 40px;
+   font-size: 15px
+}
+.service li{
+  margin: 10px 0;
+}
+.images{
+  display: inline-block;
+  margin-right: 10px;
+}
+.surveillance{
+margin-bottom: 35px;
+}
+.alarms{
+  margin-bottom: 35px;
+}
