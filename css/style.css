@@ -564,3 +564,17 @@ margin-bottom: 35px;
 .alarms{
   margin-bottom: 35px;
 }
+
+/* GALLERY PAGE */
+
+.gallery{
+  padding: 200px 300px 0 350px;
+}
+.gallery img{
+width: 230px;
+padding: 5px 5px 30px 5px;
+transition:1s;
+}
+.gallery img:hover{
+transform: scale(1.1);
+}
