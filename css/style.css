@@ -510,7 +510,7 @@ a:hover, a:active, a:focus {
   border-radius: 7px;
 }
 .social li a:hover {
-  color: #00B906;
+  color: #b9000c;
 }
 .social li a:hover, .social li a:active, .social li a:focus {
   outline: none;
@@ -602,3 +602,16 @@ transform: scale(1.1);
 .fh5co-feature .fh5co-icon i {
   color: #00B906;
   font-size: 40px;
+}
+
+.map {
+ position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+.follow {
+   position: relative;
+    bottom:200px;
+    left:190px;
+}
