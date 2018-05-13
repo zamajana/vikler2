@@ -12,7 +12,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #7f7f7f;
   color: #fff;
   height: 100%;
   position: relative;
@@ -144,6 +143,7 @@ a:hover, a:active, a:focus {
   margin: 0;
   background-image: url("../images/black_lozenge.png");
   padding-bottom: 20px;
+  z-index: 4;
 }
 #header .header-inner {
   height: 120px;
@@ -522,57 +522,39 @@ a:hover, a:active, a:focus {
 /* SERVICES PAGE */
 
 #services {
-  padding: 7em 0;
+  padding-bottom: 3em;
+  z-index: 5;
 }
 #services .item-block {
-  margin-bottom: 7em;
   width: auto;
-}
-#services .item-block .icon {
-  display: block;
-  margin: 20px 20px 0 0;
-  float: left;
-}
-#services .item-block .icon img {
-  max-width: inherit;
-  height: 90px;
-  margin: 0 auto;
-}
-#services .item-block h3 {
-  font-size: 20px;
-}
-#services .item-block p {
-  color: #7f7f7f;
-}
-.rewind{
   text-align: left;
-  margin: 20px 0px 35px 40px;
-  font-family: "Trebuchet MS", Trebuchet, sans-serif;
-  color: #7f7f7f;
 }
-.rewind li{
-    margin: 10px 0;
+
+#services .item-block h3 {
+  margin-bottom: 1em;
 }
-.service{
-   text-align: left;
-   font-family: "Trebuchet MS", Trebuchet, sans-serif;
-   color: #7f7f7f;
-   margin: 20px 0px 35px 40px;
-   font-size: 15px
+
+#services .item-block p {
+  color: #bfbfbf;
 }
-.service li{
+
+#services .item-block li {
+  background: url(../images/cogwheel_mala.png) no-repeat center left;
+  padding-left: 2em;
   margin: 10px 0;
+  color: #bfbfbf;
 }
-.images{
-  display: inline-block;
+
+#services .item-block .images {
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+
+#services img {
   margin-right: 10px;
 }
-.surveillance{
-margin-bottom: 35px;
-}
-.alarms{
-  margin-bottom: 35px;
-}
+
 
 /* GALLERY PAGE */
 
@@ -580,7 +562,9 @@ margin-bottom: 35px;
   padding: 200px 300px 0 350px;
 }
 .gallery img{
-width: 230px;
+/*width: 230px;*/
+max-width: 100%;
+height: auto;
 padding: 5px 5px 30px 5px;
 transition:1s;
 }
@@ -604,14 +588,62 @@ transform: scale(1.1);
   font-size: 40px;
 }
 
-.map {
- position: absolute;
-    right: 100px;
-    top: 150px;
+/* CONTACT PAGE */
+
+#contact {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  z-index: 105;
 }
 
-.follow {
-   position: relative;
-    bottom:200px;
-    left:190px;
+
+/* SOFTWARE PAGE */
+
+#software {
+  padding-bottom: 3em;
+  z-index: 5;
+}
+#software .item-block {
+  width: auto;
+  text-align: left;
+}
+
+#software .item-block h3 {
+  margin-bottom: 1em;
+}
+
+#software .item-block p {
+  color: #bfbfbf;
+}
+
+#software .item-block li {
+  background: url(../images/softver.png) no-repeat center left;
+  padding-left: 2em;
+  margin: 10px 0;
+  color: #bfbfbf;
+}
+
+/* PLATE PAGE */
+
+#plate {
+  padding-bottom: 3em;
+  z-index: 5;
+}
+#plate .item-block {
+  width: auto;
+  text-align: left;
+}
+
+#plate .item-block h3 {
+  margin-bottom: 1em;
+}
+
+#splate .item-block p {
+  color: #bfbfbf;
+}
+
+#plate .item-block li {
+  padding-left: 2em;
+  margin: 10px 0;
+  color: #bfbfbf;
 }
