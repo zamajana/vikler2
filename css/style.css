@@ -29,7 +29,7 @@ a {
 a:hover, a:active, a:focus {
   color: #CC0000;
   outline: none;
-  text-decoration:none;
+  text-decoration: underline;
 }
 
 /* PAGE */
@@ -638,7 +638,7 @@ transform: scale(1.1);
   margin-bottom: 1em;
 }
 
-#splate .item-block p {
+#plate .item-block p {
   color: #bfbfbf;
 }
 
@@ -646,4 +646,111 @@ transform: scale(1.1);
   padding-left: 2em;
   margin: 10px 0;
   color: #bfbfbf;
+}
+
+/* RACUNI PAGE */
+
+#racuni {
+  padding-bottom: 3em;
+  z-index: 5;
+}
+#racuni .item-block {
+  width: auto;
+  text-align: left;
+}
+
+#racuni .item-block h3 {
+  margin-bottom: 1em;
+}
+
+#racuni .item-block p {
+  color: #bfbfbf;
+}
+
+#racuni .item-block li {
+  padding-left: 2em;
+  margin: 10px 0;
+  color: #bfbfbf;
+}
+
+/* VIRMANI PAGE */
+
+#virmani {
+  padding-bottom: 3em;
+  z-index: 5;
+}
+#virmani .item-block {
+  width: auto;
+  text-align: left;
+}
+
+#virmani .item-block h3 {
+  margin-bottom: 1em;
+}
+
+#virmani .item-block p {
+  color: #bfbfbf;
+}
+
+#virmani .item-block li {
+  padding-left: 2em;
+  margin: 10px 0;
+  color: #bfbfbf;
+}
+
+
+/* POPIS PAGE */
+
+#popis {
+  padding-bottom: 3em;
+  z-index: 5;
+}
+#popis .item-block {
+  width: auto;
+  text-align: left;
+}
+
+#popis .item-block h3 {
+  margin-bottom: 1em;
+}
+
+#popis .item-block p {
+  color: #bfbfbf;
+}
+
+#popis .item-block li {
+  padding-left: 2em;
+  margin: 10px 0;
+  color: #bfbfbf;
+}
+
+
+/* DEPESA PAGE */
+
+#depesa {
+  padding-bottom: 3em;
+  z-index: 5;
+}
+#depesa .item-block {
+  width: auto;
+  text-align: left;
+}
+
+#depesa .item-block h3 {
+  margin-bottom: 1em;
+}
+
+#depesa .item-block p {
+  color: #bfbfbf;
+}
+
+#depesa .item-block li {
+  padding-left: 2em;
+  margin: 10px 0;
+  color: #bfbfbf;
+}
+
+body#service a#sernav,
+{
+  color: red;
 }
